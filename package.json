@@ -1,0 +1,40 @@
+{
+  "name": "image-wizard",
+  "version": "1.0.0",
+  "description": "A CLI to manage images",
+  "main": "dist/main.js",
+  "bin": {
+    "image-wizard": "bin/image-wizard"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "image-wizard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^18.15.11",
+    "@types/prompts": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@types/glob": "^8.1.0",
+    "arg": "^5.0.2",
+    "commander": "^10.0.0",
+    "esm": "^3.2.25",
+    "glob": "^9.3.4",
+    "inquirer": "^9.1.5",
+    "prompts": "^2.4.2",
+    "sharp": "^0.32.0"
+  }
+}
